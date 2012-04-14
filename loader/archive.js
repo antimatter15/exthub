@@ -282,6 +282,7 @@ bitjs.archive.Unarchiver.prototype.handleWorkerEvent_ = function(e) {
   var me = this;
   var scriptFileName = this.pathToBitJS_ + this.getScriptFileName();
   if (scriptFileName) {
+    console.log(scriptFileName)
     this.worker_ = new Worker(scriptFileName);
 
     this.worker_.onerror = function(e) {

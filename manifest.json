@@ -8,9 +8,13 @@
 			"loader/archive.js"
 		]
 	},
+	"app": {
+		"launch": {
+			"local_path": "main.html"
+		}
+	},
 	"permissions": [
 		"unlimitedStorage",
-		"https://github.com/",
-		"https://api.github.com/"
+		"https://*.github.com/"
 	]
 }
