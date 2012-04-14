@@ -1,0 +1,13 @@
+So a while ago I found this totally awesome Node based twitter client named Streamie.
+
+I don't nearly use twitter much so it wasn't that useful but there was something really awesome about it. The awesome part was that all you had to do in order to modify it was to fork its github repo and you could access your version live through [username].streamie.org
+
+Yesterday I remembered that my patch for offline text editing for SourceKit never got accepted, and development on it has pretty much stopped.
+
+I realized that if I made SourceKit, I couldn't really be trusted to maintain it, and formally relinquishing ownership is tedious and hurts my sense of hope, and nobody is brave enough to bring up the subject. 
+
+So what do engineers do? They make up technical solution to problems which are merely social. That's what this is.
+
+This is a framework for making chrome extensions which act sort of like Streamie. Anyone can fork the extension code and magically all the users of the extension can select your fork through a chooser. Not only that, but it'll update automatically, pulling from whatever tag on Github is the latest and it'll store a copy offline so it's really fast.
+
+That's the plan, at least.
