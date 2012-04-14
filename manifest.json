@@ -1,0 +1,16 @@
+{
+	"name": "Sample",
+	"manifest_version": 2,
+	"version": "0.1",
+	"background": {
+		"scripts": [
+			"loader/updater.js",
+			"loader/archive.js"
+		]
+	},
+	"permissions": [
+		"unlimitedStorage",
+		"https://github.com/",
+		"https://api.github.com/"
+	]
+}
